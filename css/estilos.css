@@ -1,0 +1,387 @@
+.secreto {
+  text-align: center;
+  padding: 15px;
+  margin: 10px;
+}
+.secreto img {
+  width: 700px;
+  margin-top: 10px;
+  border-radius: 25px;
+  box-shadow: 15px 18px 25px black;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.secreto img:hover {
+  transform: scale(1.1);
+  box-shadow: 13px 15px 17px black;
+  opacity: 0.9;
+}
+
+.tarjetas {
+  display: flex;
+  justify-content: center;
+}
+
+.destacado {
+  display: flex;
+  justify-content: center;
+  background-color: rgba(153, 99, 18, 0.6);
+  width: 70%;
+  margin: 10px;
+  text-align: center;
+  border-radius: 15px;
+}
+.destacado img {
+  margin: 10px;
+  border-radius: 15px;
+  text-align: center;
+  width: 450px;
+}
+.destacado .descripcion {
+  font-size: 15px;
+  padding: 25px;
+  margin: 10px;
+  display: flex;
+  color: beige;
+  align-content: space-around;
+  flex-wrap: wrap;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+.fondo {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.logo {
+  display: flex;
+  Filter: brightness 1.1;
+  Mix-blend-mode: multiply;
+}
+.logo img {
+  width: 250px;
+  height: 200px;
+}
+.logo h1 {
+  font-size: 35px;
+  text-align: center;
+}
+
+header {
+  width: 100%;
+  background: linear-gradient(to left, #740001, #ae0001, #eeba30, #d3a625);
+}
+header #btn-menu {
+  display: none;
+}
+header label img {
+  display: none;
+  width: 50px;
+  height: 50px;
+  padding: 10px;
+}
+header .menu {
+  background: linear-gradient(to left, #740001, #ae0001, #eeba30, #d3a625);
+}
+header .menu ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+header .menu ul li {
+  list-style: none;
+}
+header .menu ul li a {
+  display: block;
+  padding: 15px 20px;
+  cursor: pointer;
+  color: #ffffff;
+  font-size: 25px;
+}
+
+main {
+  padding: 15px;
+  font-size: 25px;
+}
+main h2 {
+  text-align: center;
+  height: 30px;
+  color: #756634;
+  text-shadow: 10px 8px 15px black;
+}
+main p {
+  text-align: justify;
+  line-height: 1.6;
+  margin: 50px;
+  font-size: 20px;
+}
+main .abc {
+  margin: 50px;
+  text-align: left;
+  color: rgb(0, 0, 0);
+}
+main .def {
+  margin: 50px;
+  text-align: left;
+  color: #000000;
+}
+
+.enlace {
+  padding: 15px;
+  font-size: 25px;
+}
+
+footer {
+  background: linear-gradient(to left, #740001, #ae0001, #eeba30, #d3a625);
+}
+footer .redes ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style: none;
+}
+footer .redes li {
+  margin: 5px;
+}
+footer .redes a {
+  padding: 1px;
+}
+footer .redes img {
+  height: 60px;
+  width: 55px;
+  margin: 10px;
+}
+footer .creado {
+  text-align: center;
+}
+footer .creado p {
+  color: #000000;
+  font-size: 20px;
+}
+
+.encabezado {
+  display: flex;
+  justify-content: center;
+}
+
+.encabezado h2 {
+  font-size: 40px;
+  padding: 10px;
+  color: #756634;
+  text-shadow: 10px 8px 20px black;
+}
+
+.titulado {
+  font-size: 40px;
+  text-align: center;
+  padding: 15px;
+  color: #756634;
+  text-shadow: 10px 8px 15px black;
+}
+
+.contenedor {
+  margin-top: 30px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  position: relative;
+}
+.contenedor .caja {
+  margin: 30px;
+}
+.contenedor .caja img {
+  width: 300px;
+  border-radius: 20px;
+  box-shadow: 15px 18px 25px black;
+  padding: 5px;
+  height: 300px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.contenedor .caja img:hover {
+  transform: scale(1.1);
+  box-shadow: 13px 15px 17px black;
+}
+.contenedor .caja p {
+  text-align: center;
+  padding: 25px;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@media (max-width: 900px) {
+  .logo img {
+    width: 330px;
+    height: 250px;
+  }
+
+  .logo h1 {
+    font-size: 40px;
+  }
+
+  header label img {
+    width: 60px;
+    height: 60px;
+    display: block;
+  }
+
+  .menu {
+    background-color: linear-gradient(to left, #740001, #ae0001, #eeba30, #d3a625);
+    position: absolute;
+    width: 70%;
+    margin-left: -70%;
+    transition: all 0.5s;
+  }
+
+  .menu ul {
+    flex-direction: column;
+  }
+
+  .menu li {
+    background-color:  linear-gradient(to left, #740001, #ae0001, #eeba30, #d3a625);
+  }
+
+  .menu a {
+    font-size: 20px;
+    color: black;
+  }
+
+  #btn-menu:checked ~ .menu {
+    margin: 0;
+  }
+
+  footer {
+    background-color: linear-gradient(to left, #740001, #ae0001, #eeba30, #d3a625);
+  }
+  footer .redes ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+  }
+  footer .redes li {
+    margin: 5px;
+  }
+  footer .redes a {
+    padding: 1px;
+  }
+  footer .redes img {
+    height: 65px;
+    width: 60px;
+    margin: 15px;
+  }
+  footer .creado {
+    text-align: center;
+  }
+  footer .creado p {
+    color: #000000;
+    font-size: 30px;
+    padding: 5px;
+  }
+
+  main .daniel {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+@media (max-width: 600px) {
+  .logo img {
+    width: 270px;
+    height: 260px;
+  }
+
+  .main h2 {
+    font-size: 40px;
+    padding: 10px;
+  }
+
+  .contenedor .caja1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  main .daniel {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+@media (max-width: 400px) {
+  .logo img {
+    width: 250px;
+    height: 250px;
+  }
+}
+.main h2 {
+  font-size: 40px;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+}
+
+.main .main1 img {
+  width: 300px;
+  height: 250px;
+}
+
+.main .main1 p {
+  font-size: 25px;
+}
+
+footer {
+  background-color: linear-gradient(to left, #740001, #ae0001, #eeba30, #d3a625);
+}
+footer .redes ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style: none;
+}
+footer .redes li {
+  margin: 5px;
+}
+footer .redes a {
+  padding: 1px;
+}
+footer .redes img {
+  height: 60px;
+  width: 55px;
+  margin: 10px;
+}
+footer .creado {
+  text-align: center;
+}
+footer .creado p {
+  color: #000000;
+  font-size: 20px;
+}
+footer main .secreto img {
+  width: 300px;
+}
+footer main .tarjetas {
+  display: flex;
+  flex-direction: column;
+}
+footer main .destacado {
+  display: flex;
+  flex-direction: column;
+}
+footer main .destacado img {
+  width: 200px;
+}
+
+/*# sourceMappingURL=estilos.css.map */

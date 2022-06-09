@@ -1,0 +1,92 @@
+@media screen and(max-width: 425px){
+     .grilla{
+    display: flex;
+    flex-direction: column;
+     }
+    
+    .principal{
+        width: 40px;
+    }
+
+    nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 500px;
+    height: 60px;
+    }
+    
+    nav ul{
+    padding: 5px;
+    }
+
+    nav ul li a{
+    font-size: 10px;
+    }
+}    
+   /*peliculas*/
+@media screen and(max-width: 425px){
+
+    .contenedor{
+    justify-content: space-evenly;
+    }
+    .caja img{
+        width: 250px;
+        height: 200px;
+       }
+    
+    .caja p{
+        font-size: 15px;
+    }
+}
+  /*index*/
+@media screen and(max-width: 425px){
+    .grilla{
+        display: flex;
+        flex-direction: column;
+         }
+        
+         .principal{
+            width: 40px; 
+         }
+
+         nav{
+            display: flex;
+            justify-content: center;
+         }
+
+         nav ul{
+
+         }
+
+         .inicio{
+            padding: 5px;
+            font-size: 30px;
+         }
+
+         main h2{
+         font-size: 30px;
+         }
+
+}
+
+/*peliculas*/
+@media screen and(max-width: 1024px){
+    .contenedor{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    
+    .caja img{
+    width: 350px;
+    height: 350px;
+    }
+
+    .caja p{
+    font-size: 25px;
+    }
+}
+
+
+
